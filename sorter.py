@@ -3,6 +3,7 @@ import shutil
 from collections import defaultdict
 
 
+
 def sort_by_extension(path, verbose=False):
     """
     Organizes files by extension.
