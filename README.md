@@ -21,7 +21,7 @@ A Python command-line tool to automatically organize files in a directory by cat
 ### Clone the Repository
 
 ```bash
-git https://github.com/ilyasyoussefmouhri/Automatic-File-Sorting-Tool
+git clone https://github.com/ilyasyoussefmouhri/Automatic-File-Sorting-Tool
 cd Automatic-File-Sorting-Tool
 ```
 

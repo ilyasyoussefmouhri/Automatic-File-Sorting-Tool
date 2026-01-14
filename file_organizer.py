@@ -1,4 +1,5 @@
 import argparse
+import pathlib
 from sorter import sort_by_extension
 from sorter import sort_by_category
 
@@ -83,7 +84,9 @@ Folder structures:
                     print(f"  ... and {len(all_errors) - 10} more")
             else:
                 print("✓ All files organized successfully!")
-
+    except ValueError as e:
+        print(f"Error: {e}")
+        return 1
     except Exception as e:
         print(f"Unexpected error: {e}")
         return 1
