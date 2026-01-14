@@ -1,0 +1,20 @@
+# File Organizer - Python Dependencies
+
+# Core dependencies
+# This project uses only Python standard library modules
+# No external packages required!
+
+# The following modules are used (all part of Python standard library):
+# - pathlib: Path manipulation
+# - shutil: File operations
+# - argparse: Command-line argument parsing
+# - collections: defaultdict for data structures
+
+# Python version requirement
+# python>=3.6
+
+# Optional: Development dependencies (uncomment if needed)
+# pytest>=7.0.0          # For running tests
+# black>=22.0.0          # Code formatting
+# flake8>=4.0.0          # Linting
+# mypy>=0.950            # Type checking
