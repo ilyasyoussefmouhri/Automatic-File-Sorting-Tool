@@ -2,6 +2,7 @@ import argparse
 from sorter import sort_by_extension
 from sorter import sort_by_category
 
+
 def main():
 
     # Creating user friendly CLI with example

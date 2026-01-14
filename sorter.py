@@ -165,4 +165,3 @@ def sort_by_category(path, verbose=False):
                 print(f"    - {error}")
 
     return moved_files, errors
-
